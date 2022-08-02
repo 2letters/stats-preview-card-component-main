@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    background: hsl(244, 38%, 16%);
+    width: 1110px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+picture {
+    background-color: hsl(277, 64%, 61%);
+}
+
+img {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+}
+
+.image-mobile {
+    width: 327px;
+    height: 240px;
+    display: flex;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 670px;
+    padding: 71px 111px 64px 71px;
+}
+
+h1  {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    margin-left: 1px;
+}
+
+h1 a {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.003em;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+}
+
+section {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+section h2 {
+    margin-left: 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.003em;
+}
+
+section p {
+    margin-top: 6px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.027em;
+    text-transform: uppercase;
+}
+
+.companies {
+    margin-right: 63px;
+}
+
+.templates {
+    margin-right: 61px;
+}
+
+.queries {
+    margin-right: 36px;
+}
+
+@media screen and (max-width: 1150px){
+
+    body {
+        height: auto;
+    }
+
+    main {
+        flex-direction: column;
+        width: 327px;
+        height: 780px;
+        justify-content: start;
+        text-align: center;
+        margin: 10% 0 10% 0;
+    }
+
+    .image-desktop {
+        display: none;
+    }
+
+    .preview {
+        width: 273px;
+        padding: 40px 27px 37px 27px;
+    }
+
+    h1  {
+        margin-left: 0;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    p {
+        letter-spacing: 0.002em;
+        margin-top: 16px;
+    }
+
+    section {
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section h2 {
+        margin-left: 0;
+        line-height: 40px;
+    }
+
+    section p {
+        margin-top: 1px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    }
+
+    .companies {
+        margin-right: 0;
+        margin-bottom: 23px;
+    }
+
+    .templates {
+        margin-right: 0;
+        margin-bottom: 23px;
+    }
+
+    .queries {
+        margin-right: 0;
+    }
+
+}
