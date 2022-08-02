@@ -20,8 +20,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://)
-- Live Site URL: [Site](https://)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-stats-preview-card-component-5_hm-Zc9LY)
+- Live Site URL: [Site](https://stats-preview-card-component-main-five-sage.vercel.app/)
 
 ## My process
 
